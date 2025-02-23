@@ -11,3 +11,6 @@ vim.keymap.set("n", "gI", function()
   vim.cmd("silent !open " .. filepath)
 end, { desc = "Abrir imagen en Vista Previa" })
 
+
+vim.keymap.set("n", "<leader>k", ":m-2<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>j", ":m+1<CR>", { noremap = true, silent = true })
