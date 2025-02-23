@@ -11,8 +11,7 @@
  fzf (brew install fzf)
  ripgrep (brew install ripgrep)
  fd (brew install fd)
-
-nvim (git clone https://github.com/jonathanleivag/lazyvim.git ~/.config/nvim)
+ nvim (git clone https://github.com/jonathanleivag/lazyvim.git ~/.config/nvim)
 ```
 
 A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
