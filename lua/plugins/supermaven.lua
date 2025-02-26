@@ -9,7 +9,6 @@ return {
         accept_word = "<C-j>", -- Acepta una palabra de la sugerencia
       },
       ignore_filetypes = { "bigfile", "snacks_input", "snacks_notif" },
-      disable_inline_completion = vim.g.ai_cmp, -- Desactiva el autocompletado inline si está activado otro AI
     })
   end,
 }

@@ -8,7 +8,14 @@
 -- e.g. vim.api.nvim_del_augroup_by_name("lazyvim_wrap_spell"
 
 
+
 vim.api.nvim_create_autocmd("BufWritePre", {
-  pattern = "*.ts,*.tsx",
-  command = "lua vim.lsp.buf.format()"
+  pattern = { "*.astro", "*.tsx", "*.ts", "*.js", "*.jsx" },
+  callback = function()
+    -- Verificar si hay un LSP activo antes de intentar formatear
+    local clients = vim.lsp.get_active_clients({ bufnr = 0 })
+    if #clients > 0 then
+      vim.lsp.buf.format({ async = false }) -- Ejecuta el formateo solo si hay un LSP activo
+    end
+  end,
 })
