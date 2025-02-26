@@ -16,6 +16,7 @@ return {
       markdown = { "prettier" },
       markdown_inline = { "prettier" },
       markdown_fenced = { "prettier" },
+      mjs = { "prettier" },
     },
   },
 }
