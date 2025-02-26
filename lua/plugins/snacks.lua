@@ -29,7 +29,7 @@ return {
     picker = {
      sources = {
        explorer = {
-          auto_close= true,
+          -- auto_close= true,
           hidden = true,
           ignored = true,
           follow = true,

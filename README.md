@@ -11,6 +11,7 @@
  fzf (brew install fzf)
  ripgrep (brew install ripgrep)
  fd (brew install fd)
+ laurocks (brew install luarocks)
  nvim (git clone https://github.com/jonathanleivag/lazyvim.git ~/.config/nvim)
 ```
 
