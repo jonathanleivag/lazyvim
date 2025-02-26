@@ -14,15 +14,14 @@ return {
     statuscolumn = { enabled = true },
     words = { enabled = true },
     picker = {
-    sources = {
-      explorer = {
+     sources = {
+       explorer = {
           auto_close= true,
-         hidden = true,
-        ignored = true,
+          hidden = true,
+          ignored = true,
           follow = true,
-      }
+       }
+     }
     }
-  }
   },
-  
 }
