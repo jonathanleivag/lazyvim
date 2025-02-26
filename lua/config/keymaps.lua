@@ -16,3 +16,4 @@ end, { desc = "Abrir en app predeterminada" })
 vim.keymap.set("n", "<leader>k", ":m-2<CR>", { noremap = true, silent = true })
 vim.keymap.set("n", "<leader>j", ":m+1<CR>", { noremap = true, silent = true })
 
+vim.keymap.set("n", "<leader>db", "<cmd>DBUI<CR>", { desc = "Abrir UI de bases de datos" })
