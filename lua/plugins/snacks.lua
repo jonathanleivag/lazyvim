@@ -3,7 +3,7 @@ return {
   opts = {
     bigfile = { enabled = true },
     dashboard = { enabled = true },
-    explorer = { enabled = true, hidden = true },
+    explorer = { enabled = true },
     indent = { enabled = true },
     input = { enabled = true },
     picker = { enabled = true },
@@ -20,6 +20,7 @@ return {
           hidden = true,
           ignored = true,
           follow = true,
+          position = "bottom",
        }
      }
     }

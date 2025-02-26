@@ -10,7 +10,7 @@ end, { desc = "Abrir carpeta en Finder" })
 vim.keymap.set("n", "gI", function()
   local filepath = vim.fn.expand("%:p") -- Obtiene la ruta completa del archivo
   vim.cmd("silent !open " .. filepath)
-end, { desc = "Abrir imagen en Vista Previa" })
+end, { desc = "Abrir en app predeterminada" })
 
 
 vim.keymap.set("n", "<leader>k", ":m-2<CR>", { noremap = true, silent = true })
